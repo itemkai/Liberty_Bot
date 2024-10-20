@@ -1,14 +1,3 @@
-'''
-Web Money:
-логин - +79621522654 ; artem17404@gmail.com
-пароль - ARtemka_Liberty7268
-пинкод для телефона - 9420
-
-Почта Liberty:
-почта - liberty.deliv@gmail.com
-пароль - Liberty_Deliv7268
-'''
-
 import telebot
 from telebot import types
 import os
@@ -28,7 +17,7 @@ import Panel_Android
 
 class TG_BOT:
     def __init__(self):
-        self.bot = telebot.TeleBot('6843762820:AAEsqt9LBHHC731h45KsJPyqpX4756h4iX4')
+        self.bot = telebot.TeleBot('token')
         yan = 14                #Курс юаня
         liberty = 7             #Процент выкупа
         delivery_price = 620    #Цена за доставку в кг
